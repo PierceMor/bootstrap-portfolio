@@ -1,12 +1,18 @@
+body {
+    background-image: url("../images/background.jpg");
+}
+
 .container {
     height: 100%;
     margin-left: 0px;
     margin-right: 0px;
     padding: 0px; 
-    max-width: 1520px;
+    max-width: 1540px;
 }
 
-
+.col-sm-5.col-md-6 {
+    height: 100%;
+}
 
 h1 {
     font-family:'Georgia', Times, "Times New Roman", serif;
@@ -21,7 +27,7 @@ p {
     padding: 0px;
     height: 90px;
     position: fixed;
-    width: 1520px;
+    width: 1540px;
     border-bottom-style: solid;
     border-bottom-width: 3px;
     border-bottom-color: #cccccc;
@@ -132,7 +138,33 @@ h1.display, h3.display  {
 }
 
 img  {
-    
+    float: left;
+    position: relative;
     height: 170px;
     width: 260px;
+}
+
+.col-md-6  {
+    padding: 15px;
+}
+
+div.caption.post-content {
+    position: absolute;
+    bottom: 20px;
+    width: 260px;
+    padding: 15px;
+    margin-bottom: 0;
+    font-weight: 300;
+    color: #fff;
+    text-align: center;
+    background: #4aaaa5;
+    opacity: 0.8;
+    border-bottom: 0;
+}
+
+li img {
+    height: 130px;
+    width: 130px;
+    padding: 20px;
+    vertical-align: none;
 }
